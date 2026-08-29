@@ -3,6 +3,14 @@
 国文学研究資料館の日本古典資料調査記録データベースを検索・閲覧するサイトです。
 サーバー側のAPI、検索処理、書き込み可能なデータベースは使用しません。
 
+<img width="７85" alt="image" src="https://github.com/user-attachments/assets/197541df-acf8-43a0-bd8a-af9f9817c656" />
+
+### サンプルサイト
+
+下記のNetlifyの無料枠で公開中です。
+
+https://silver-swan-de799c.netlify.app/
+
 ## 必要な環境
 
 - Node.js 22以上
