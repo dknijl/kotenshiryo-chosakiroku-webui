@@ -1,0 +1,9 @@
+node_modules/
+dist/
+public/data/kotenkiroku.sqlite
+.DS_Store
+.kiokuko.json
+AGENTS.md
+PLAN.md
+.kirokuko.json
+

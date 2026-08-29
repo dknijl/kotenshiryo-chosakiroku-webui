@@ -1,0 +1,31 @@
+{
+  "name": "kotenchosakiroku",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "predev": "npm run db:build",
+    "dev": "vite",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "test": "vitest run",
+    "db:build": "tsx scripts/build-database.ts",
+    "build": "npm run db:build && vite build"
+  },
+  "dependencies": {
+    "@sqlite.org/sqlite-wasm": "^3.53.0-build1",
+    "csv-parse": "^7.0.2",
+    "sqlite-wasm-http": "^1.2.0",
+    "svelte": "^5.56.10"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.3.0",
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^24.3.0",
+    "better-sqlite3": "^12.4.1",
+    "svelte-check": "^4.3.1",
+    "tsx": "^4.20.5",
+    "typescript": "^6.0.3",
+    "vite": "^8.2.2",
+    "vitest": "^4.1.11"
+  }
+}
